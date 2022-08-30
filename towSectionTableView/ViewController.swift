@@ -14,6 +14,7 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
     var selectedItem = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        // test
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "OwnCellTableViewCell", bundle: nil), forCellReuseIdentifier: "OwnCellTableViewCell")
